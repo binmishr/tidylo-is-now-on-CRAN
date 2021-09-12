@@ -17,3 +17,5 @@ Text analysis is a main motivator for this implementation of weighted log odds, 
 Tidy Odd Logs: https://cran.r-project.org/web/packages/tidylo/vignettes/tidy_log_odds.html
 
 Z-scores documentation : https://en.wikipedia.org/wiki/Standard_score
+
+This is a good fit for the weighted log odds approach because some ingredients (like vodka) are much more common than others (like tabasco sauce). Which ingredients are more likely to be used with which type of cocktail glass, using a prior estimated from the data itself? By weighting using empirical Bayes estimation, we take into account the uncertainty in our measurements and acknowledge that we are more certain when we’ve counted something a lot of times and less certain when we’ve counted something only a few times. When weighting by the prior in this way, we focus on differences that are more likely to be real, given the evidence that we have.
